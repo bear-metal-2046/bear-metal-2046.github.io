@@ -40,6 +40,8 @@ plugins:
     - search
     - social
     # figure out how to use xolonium at some point instead of default font.
+extra_css:
+  - stylesheets/extra.css
 extra:
   generator: false
 copyright: Site founded by Matt and Corbin 🦅

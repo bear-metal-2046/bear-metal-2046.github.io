@@ -1,4 +1,8 @@
 :root {
-    --md-primary-fg-color:        #Fff120;
-    --md-accent-fg-color:         #Fff120;
+    --md-primary-fg-color:        #fff120;
+    --md-accent-fg-color:         #fff120;
+  }
+
+.md-button .twemoji {
+    margin-right: 0.5em;
   }
