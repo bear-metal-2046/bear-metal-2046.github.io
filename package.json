@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "markdownlint-cli2 docs/**/*.md --fix",
+    "check-typos": "cspell \"docs/**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "cspell": "^10.0.1",
     "markdownlint-cli2": "^0.23.1"
   }
 }

@@ -39,13 +39,13 @@ For any suggestions/feedback, feel free to DM @Matthaeusssss via Discord 🤓
 
     ---
 
-    Currated challenges to help develop a breadth of design knowledge in making beautiful designs (yippee!) ^ </p>
+    Curated challenges to help develop a breadth of design knowledge in making beautiful designs (yippee!) ^ </p>
 
 - <p style="text-align: center;">[Organization/Documents](/design/org-documentation){.md-button}</p>
 
     ---
 
-    With the sheer size of our team, we need to maximize our ability to communicate with eachother, here's how ^ </p>
+    With the sheer size of our team, we need to maximize our ability to communicate with each other, here's how ^ </p>
 
 - <p style="text-align: center;">[Physics-In-Design](/design/cots-library){.md-button}
 

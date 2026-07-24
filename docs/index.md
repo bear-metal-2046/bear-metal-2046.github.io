@@ -20,6 +20,6 @@ Here you can find a lot of great information from different subteams.
 
     ---
 
-    Here you can find knowlege for the Electronics subteam. </p>
+    Here you can find knowledge for the Electronics subteam. </p>
 
 </div>

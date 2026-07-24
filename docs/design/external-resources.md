@@ -1,6 +1,6 @@
 # External Resources
 
-There are many resources availible to further and aid your design skills, here are a few.
+There are many resources available to further and aid your design skills, here are a few.
 
 [Rush Gears :octicons-link-external-16:](https://www.rushgears.com/tech-tools/part-search/build-custom-gears){ .md-button .md-button--primary }
 
