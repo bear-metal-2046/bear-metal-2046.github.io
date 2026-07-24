@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Information regarding various pneumatic components commonly used in FRC.">
       
       
-        <link rel="canonical" href="https://bearmetalweb.github.io/design/external-resources/">
+      
+        <link rel="canonical" href="https://bearmetalweb.github.io/hardware/pneumatic-components/">
       
       
       
@@ -21,7 +23,7 @@
     
     
       
-        <title>External Resources - Bear Metal Docs</title>
+        <title>Pneumatic System Components - Bear Metal Docs</title>
       
     
     
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#external-resources" class="md-skip">
+        <a href="#pneumatic-system-components" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              External Resources
+              Pneumatic System Components
             
           </span>
         </div>
@@ -882,6 +884,124 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#compressor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compressor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accumulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accumulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pressure-gauge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pressure Gauge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manifold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manifold
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solenoids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solenoids
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pressure-relief-valve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pressure Relief Valve
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pressure-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pressure Switch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cylinders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cylinders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dump-valve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dump Valve
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -897,20 +1017,60 @@
 
 
 
-<h1 id="external-resources">External Resources</h1>
-<p>There are many resources availible to further and aid your design skills, here are a few.</p>
-<p><a class="md-button md-button--primary" href="https://www.rushgears.com/tech-tools/part-search/build-custom-gears">Rush Gears <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2m6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1"/></svg></span></a> </p>
-<p>Generates STEP for any gear you can think of. Very useful for getting a machinable gear profile.</p>
-<p><a class="md-button md-button--primary" href="https://www.frcdesign.org/design-guide/"><abbr title="FIRST Robotics Competition">FRC</abbr> Design Guide <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2m6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1"/></svg></span></a> </p>
-<p>Created by members from David's Design Server, this is an excellent resource for learning and improving your design skills.</p>
-<p><a class="md-button md-button--primary" href="">David's Design Server</a> </p>
-<p>Discord server dedicated to serve <abbr title="FIRST Robotics Competition">FRC</abbr> designers. <b>Ask leads if you want a join link to this server.</b></p>
+<h1 id="pneumatic-system-components">Pneumatic System Components</h1>
+<div class="admonition note">
+<p class="admonition-title">Note:</p>
+<p>Unlike electrical components, we will not use pneumatics every year. The decision of whether or not we use pneumatics ultimately comes down to how we decide to approach the year's game.</p>
+</div>
+<p>Below are several pneumatic system components that you may be working with on our robots.</p>
+<hr />
+<h2 id="compressor">Compressor</h2>
+<p>The compressor is the starting point for every pneumatics system. It compresses air into the accumulators for use in the pneumatic system.</p>
+<p><img src="https://viaircorp.com/cdn/shop/products/90C_00090.jpg?crop=center&height=1200&v=1709752756&width=1200" alt="Compressor" width="400"/></p>
+<hr />
+<h2 id="accumulator">Accumulator</h2>
+<p>The accumulator(s) store compressed air for future use in the pneumatic system. They hold up to 125 <abbr title="Pounds per Square Inch">PSI</abbr>, however we regulate stored pressure to about 120 to be safe. Pressure coming out of the accumulator to the rest of the system should be regulated to 60 <abbr title="Pounds per Square Inch">PSI</abbr>.</p>
+<p><img src="https://cdn.dekuprobotics.com/upload/images/products/910/1558864759zoom.jpg" alt="Accumulator" width="400"/></p>
+<hr />
+<h2 id="regulator">Regulator</h2>
+<p>Pressure regulators regulate how much pressure is allowed in a certain part of the pneumatics system. We typically have one regulator before the accumulator set to 120 <abbr title="Pounds per Square Inch">PSI</abbr> (stored pressure), and one after the accumulator set to 60 <abbr title="Pounds per Square Inch">PSI</abbr> (working pressure).</p>
+<hr />
+<h2 id="pressure-gauge">Pressure Gauge</h2>
+<p>The pressure gauge displays the <abbr title="Pounds per Square Inch">PSI</abbr> of the section it is placed in the pneumatic system. We typically put these right after regulators.</p>
+<p><img src="https://cdn1.bigcommerce.com/server3400/392a3/products/166/images/3409/PSB20-200__99757.1474577199.1280.1280.jpg?c=2" alt="Pressure Gauge" width="400"/></p>
+<hr />
+<h2 id="manifold">Manifold</h2>
+<p>The manifold distributes compressed air to pneumatic components such as cylinders. The actuation of these pneumatic components are controlled by pneumatic solenoids.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/0440/0326/2624/files/217-2951.png?v=1689965406" alt="Manifold" width="400"/></p>
+<hr />
+<h2 id="solenoids">Solenoids</h2>
+<p>Pneumatic solenoids allow us to control the actuation of our pneumatics remotely. However, you can actuate pneumatics by pressing the small blue buttons on the solenoids if you are testing a mechanism.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/0440/0326/2624/files/WCP-0804_d15b2254-075a-40b0-9d63-eb7c9413cbcd.png?v=1689895727" alt="Solenoid" width="400"/></p>
+<hr />
+<h2 id="pressure-relief-valve">Pressure Relief Valve</h2>
+<p>The pressure relief valve is a mechanical version of the pressure switch. The pressure relief valve is calibrated to 125 <abbr title="Pounds per Square Inch">PSI</abbr> (which is the maximum rated pressure of the accumulators). When the pressure exceeds that, the pressure relief valve pops open briefly to release pressure. From first-hand experience, this is VERY loud. Do not intentionally activate the pressure relief valve when you are near it.</p>
+<p><img src="https://cdn.andymark.com/product_images/pressure-gauge-1-5-face-back-mount-1-8-npt-0-160-psi/615757f943821401280e9db2/detail.jpg?c=1633114105" alt="Pressure Relief Valve" width="400"/></p>
+<hr />
+<h2 id="pressure-switch">Pressure Switch</h2>
+<p>The pressure switch is a digital version of the relief valve that functions slightly differently. Instead of releasing pressure, it stops the compressor when it reaches a certain pressure (the ones we use do this at 115 <abbr title="Pounds per Square Inch">PSI</abbr>).</p>
+<p><img src="https://cdn.andymark.com/product_images/nason-pressure-switch/am_2006/5bd4979261a10d27d243335e/detail.jpg?c=1540659090" alt="Pressure Switch" width="400"/></p>
+<hr />
+<h2 id="cylinders">Cylinders</h2>
+<p>Pneumatic Cylinders use pneumatic pressure in order to actuate in a linear motion.</p>
+<p><img src="https://cdn.andymark.com/product_images/double-acting-3-4-in-bore-air-cylinders-different-lengths/6286a275959bab01295ec1ef/detail.jpg?c=1652990581" alt="Cylinders" width="400"/></p>
+<p><img src="https://cdn.andymark.com/product_images/12-mm-bore-10-mm-stroke-air-cylinder/5fc68ed15ac4470e38250b63/detail.jpg?c=1606848209" alt="Waffle Cylinder" width="400"/></p>
+<hr />
+<h2 id="dump-valve">Dump Valve</h2>
+<p>The dump valve is typically a valve we have connected at the beginning of the system that, when activated, will relieve pressure stored in the system. We use this after we are done testing/using pneumatics or after we complete a match (if there are pneumatics on the robot).</p>
 
 
 
 
 
 
+
+  
+  
 
 
 

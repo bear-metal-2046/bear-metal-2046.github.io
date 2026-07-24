@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Information regarding various electrical components commonly used in FRC control systems.">
       
       
-        <link rel="canonical" href="https://bearmetalweb.github.io/design/external-resources/">
+      
+        <link rel="canonical" href="https://bearmetalweb.github.io/hardware/electrical-components/">
       
       
       
@@ -21,7 +23,7 @@
     
     
       
-        <title>External Resources - Bear Metal Docs</title>
+        <title>Electrical System Components - Bear Metal Docs</title>
       
     
     
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#external-resources" class="md-skip">
+        <a href="#electrical-system-components" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              External Resources
+              Electrical System Components
             
           </span>
         </div>
@@ -882,6 +884,146 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pdh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDH
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vrm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VRM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#five-star" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Five-Star
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Radio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RPM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cancoder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CANCoder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-breaker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Breaker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roborio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RoboRIO
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pigeon-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pigeon 2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rsl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RSL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canivore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CANivore
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -897,20 +1039,64 @@
 
 
 
-<h1 id="external-resources">External Resources</h1>
-<p>There are many resources availible to further and aid your design skills, here are a few.</p>
-<p><a class="md-button md-button--primary" href="https://www.rushgears.com/tech-tools/part-search/build-custom-gears">Rush Gears <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2m6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1"/></svg></span></a> </p>
-<p>Generates STEP for any gear you can think of. Very useful for getting a machinable gear profile.</p>
-<p><a class="md-button md-button--primary" href="https://www.frcdesign.org/design-guide/"><abbr title="FIRST Robotics Competition">FRC</abbr> Design Guide <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2m6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1"/></svg></span></a> </p>
-<p>Created by members from David's Design Server, this is an excellent resource for learning and improving your design skills.</p>
-<p><a class="md-button md-button--primary" href="">David's Design Server</a> </p>
-<p>Discord server dedicated to serve <abbr title="FIRST Robotics Competition">FRC</abbr> designers. <b>Ask leads if you want a join link to this server.</b></p>
+<h1 id="electrical-system-components">Electrical System Components</h1>
+<p>Below are several electrical system components that you may be working with on our robots.</p>
+<hr />
+<h2 id="pdh"><abbr title="Power Distribution Hub">PDH</abbr></h2>
+<p>The <abbr title="Power Distribution Hub">PDH</abbr> distributes power from the battery throughout the robot's electrical system. We typically use the <abbr title="Power Distribution Hub">PDH</abbr> due to it's ports being easier to open, it having a native voltage display, and other features not available on the <abbr title="Power Distribution Panel">PDP</abbr>.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-t3eo8vwp22/images/stencil/1280x1280/products/602/3245/REV-11-1850-Power-Distribution-Hub-Hero-FINAL__29576.1704386743.png?c=2" alt="PDH" width="400"/></p>
+<hr />
+<h2 id="pdp"><abbr title="Power Distribution Panel">PDP</abbr></h2>
+<p>The <abbr title="Power Distribution Panel">PDP</abbr> serves the same purpose as the <abbr title="Power Distribution Hub">PDH</abbr>. We don't typically use the <abbr title="Power Distribution Panel">PDP</abbr> on competition robots due to the fact that it lacks features available on the <abbr title="Power Distribution Hub">PDH</abbr>.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/188/586/PDP__05475.1641569906.jpg?c=1" alt="PDP" width="400"/></p>
+<hr />
+<h2 id="vrm"><abbr title="Voltage Regulator Module">VRM</abbr></h2>
+<p>The <abbr title="Voltage Regulator Module">VRM</abbr> is used to regulate voltage, specifically to components that require less power and use smaller gauge wire.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/178/587/VRM__22344.1641570374.jpg?c=1" alt="VRM" width="400"/></p>
+<hr />
+<h2 id="five-star">Five-Star</h2>
+<p>The Five-Star allows <abbr title="Controller Area Network">CAN</abbr> to be routed to other components individually rather than in a daisy chain.</p>
+<hr />
+<h2 id="radio">Radio</h2>
+<p>The Radio allows the robot to be controlled wirelessly through the driver's station. Below is an image of the new radio that will become standard for the 2025 season.</p>
+<p><img src="https://frc-radio.vivid-hosting.net/~gitbook/image?url=https%3A%2F%2F4239402461-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FzaDthb1gXvbj84qIfOUE%252Fuploads%252Fxxsihiyk82pWBFoxhk1P%252FIMG_6513.jpeg%3Falt%3Dmedia%26token%3Dac0484d9-dbc6-42e1-8940-1dda140c49f3&width=300&dpr=1&quality=100&sign=cc769a20cad48a50834eae4fe6e5d9d73dc524fd2ba5d162920fc3a18ae8d8d3" alt="2025 Radio" width="400"/></p>
+<hr />
+<h2 id="rpm"><abbr title="Radion Power Module">RPM</abbr></h2>
+<p>The <abbr title="Radion Power Module">RPM</abbr> is used to easily splice power into an ethernet cable, which will be used to power the radio using <abbr title="Power Over Ethernet">PoE</abbr>.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-t3eo8vwp22/images/stencil/1280x1280/products/601/3249/REV-11-1856-RadioPowerModule-Hero-FINAL__11706.1704391002.png?c=2" alt="RPM" width="400"/></p>
+<hr />
+<h2 id="cancoder">CANCoder</h2>
+<p>CANCoders are used to find how much rotating mechanisms have rotated and relay that data through the <abbr title="Controller Area Network">CAN</abbr> system. The CANCoder itself is a small <abbr title="Printed Circuit Board">PCB</abbr>, but is placed in close proximity to a cylindrical magnet that rotates with the rotating mechanism (for example, in an axle) whilst the CANCoder remains static. The CANCoder uses the magnet to find rotational data.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/153/445/ccd1__25134.1674524028.jpg?c=1" alt="CANCoder" width="400"/></p>
+<hr />
+<h2 id="main-breaker">Main Breaker</h2>
+<p>The Main Breaker interrupts the positive wire from the battery before it goes to the <abbr title="Power Distribution Hub">PDH</abbr> or <abbr title="Power Distribution Panel">PDP</abbr>. The large red button will disconnect power, and pushing the lever back in will restore power. When connecting the main breaker, make sure the "aux" terminal is connected to the <abbr title="Power Distribution Panel">PDP</abbr> or <abbr title="Power Distribution Hub">PDH</abbr>.</p>
+<p><img src="https://cdn.andymark.com/product_images/120-amp-breaker/am_0282/5bd3e2f661a10d27d2433225/detail.jpg?c=1540612854" alt="Main Breaker" width="400"/></p>
+<hr />
+<h2 id="roborio">RoboRIO</h2>
+<p>The RoboRIO is the code that runs robot code. It is an extremely important part of the robot (and expensive), so please try not to break it.</p>
+<p><img src="https://th.bing.com/th/id/R.c8438c31a8e62e36edff0c85f10b40b6?rik=Givp77hTFUhDzA&riu=http%3a%2f%2fforums.ni.com%2flegacyfs%2fonline%2f174340_roboRIO+anaotated.png" alt="RoboRIO" width="400"/></p>
+<hr />
+<h2 id="pigeon-20">Pigeon 2.0</h2>
+<p>The Pigeon 2.0 <abbr title="Inertial Measurement Unit">IMU</abbr> is a gyroscope that assists the robot in knowing where it is on the field. Typically this component will be placed somewhere near the center of the robot.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/210/613/Pigeon2__35998.1641996756.1280.1280__82782.1643919663.png?c=1" alt="Pigeon 2.0" width="400"/></p>
+<hr />
+<h2 id="rsl"><abbr title="Robot Signal Light">RSL</abbr></h2>
+<p>The <abbr title="Robot Signal Light">RSL</abbr> is a large orange light that displays the status of the robot. Solid means that the robot is powered on, but not enabled. Blinking means the robot is powered on and enabled. If the light is not on, the robot either doesn't have power or the <abbr title="Robot Signal Light">RSL</abbr> is not connected correctly.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2572/4044/products/855BS-N10BL5_1000x1000_4c3f870e-fd17-4edb-9ba7-97bdd9be97c6_1024x1024.jpg?v=1531257333" alt="RSL" width="400"/></p>
+<hr />
+<h2 id="canivore">CANivore</h2>
+<p>The CANivore is a <abbr title="Controller Area Network">CAN</abbr>-to-USB adapter that allows us to create an entirely new <abbr title="Controller Area Network">CAN</abbr> network. This allows us to split all <abbr title="Controller Area Network">CAN</abbr> connected components in our robot into different groups. For example, in the 2024 season we had all of our mechanisms daisy chained to the RoboRIO's <abbr title="Controller Area Network">CAN</abbr> port, and we had our swerve motors and CANCoders daisy chained to a CANivore. One of the downsides to CANivores is that we need to manually add terminating resistors to the end of daisy chained systems that use a CANivore.</p>
+<p><img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/211/616/canivore_main__07095.1638900553.1280.1280__43296.1643920037.png?c=1" alt="CANivore" width="400"/></p>
 
 
 
 
 
 
+
+  
+  
 
 
 

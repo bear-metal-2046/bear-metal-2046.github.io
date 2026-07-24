@@ -13,28 +13,32 @@ theme:
     text: Poppins
   features:
     - search.suggest
+    - search.highlight
     - navigation.top
+    - navigation.tabs
+    - navigation.expand
     - content.tooltips
+    - content.code.copy
 nav: 
   - Home: 'index.md'
   - 'Design':
-    - 'Design HOME': '/design'
-    - 'COTS Library': '/design/cots-library'
-    - 'CAD Fundamentals': '/design/cad-fundamentals'
-    - 'Iteration Process': '/design/iteration-process'
-    - 'Int. Subteam Knowledge': '/design/inter-sub-knowledge'
-    - 'Mech. Challenges': '/design/mech-challenges'
-    - 'Org./Doc.': '/design/org-documentation'
-    - 'Physics In Design': '/design/physics-in-design'
-    - 'Strat. Design': '/design/strategic-design'
-    - 'Sustainability': '/design/sustainability'
-    - 'External Resources': '/design/external-resources'
-  - 'Electronics':
-    - 'Electronics Home': '/electronics'
-    - 'Motors': '/electronics/motors'
-    - 'Electrical Components': '/electronics/electrical-components'
-    - 'Pneumatic Components': '/electronics/pneumatic-components'
-    - 'Concepts': '/electronics/concepts'
+    - 'Design HOME': 'design/index.md'
+    - 'COTS Library': 'design/cots-library.md'
+    - 'CAD Fundamentals': 'design/cad-fundamentals.md'
+    - 'Iteration Process': 'design/iteration-process.md'
+    - 'Int. Subteam Knowledge': 'design/inter-sub-knowledge.md'
+    - 'Mech. Challenges': 'design/mech-challenges.md'
+    - 'Org./Doc.': 'design/org-documentation.md'
+    - 'Physics In Design': 'design/physics-in-design.md'
+    - 'Strat. Design': 'design/strategic-design.md'
+    - 'Sustainability': 'design/sustainability.md'
+    - 'External Resources': 'design/external-resources.md'
+  - 'Hardware':
+    - 'Hardware Home': 'hardware/index.md'
+    - 'Motors': 'hardware/motors.md'
+    - 'Electrical Components': 'hardware/electrical-components.md'
+    - 'Pneumatic Components': 'hardware/pneumatic-components.md'
+    - 'Concepts': 'hardware/concepts.md'
 plugins:
     - ffc-mkdocs-video
     - search

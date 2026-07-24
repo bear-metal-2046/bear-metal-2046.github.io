@@ -6,3 +6,20 @@
 .md-button .twemoji {
     margin-right: 0.5em;
   }
+
+.md-typeset .grid.cards > ul > li:hover {
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0 2px 12px rgba(255, 241, 32, 0.15);
+  }
+
+.md-typeset .grid.cards > ul > li .md-button {
+    background-color: rgba(255, 241, 32, 0.1);
+    border: 1px solid rgba(255, 241, 32, 0.3);
+    color: var(--md-accent-fg-color);
+    font-weight: 600;
+  }
+
+.md-typeset .grid.cards > ul > li .md-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: #000;
+  }
