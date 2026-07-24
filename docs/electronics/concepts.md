@@ -19,7 +19,6 @@ In order to understand Ohm's Law, you need to understand what voltage, amperage,
 
 Voltage is the measure of potential difference in the charge of the positive and negative terminals of a system. This is measured in Volts (V).
 
-
 ### Amperage
 
 Amperage is the magnitude of the charge being transferred. This is measured in Amps or Amperes (A).

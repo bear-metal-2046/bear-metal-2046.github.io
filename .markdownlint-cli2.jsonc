@@ -1,0 +1,35 @@
+{
+  "config": {    
+    // Force 4-space indentation for unordered lists
+    "MD007": { "indent": 4 },
+
+    // Disable line length limits
+    "MD013": false,
+    
+    // Allow duplicate headings in different sections
+    "MD024": { "siblings_only": true },
+
+    // Allow blank lines in blockquotes
+    "MD028": false,
+
+    // Allow raw HTML
+    "MD033": false,
+
+    // Allow pages to start without a top-level H1 header
+    "MD041": false,
+
+    // Disable code block style enforcement
+    "MD046": false,
+
+    // Require files to end with a single newline character
+    "MD047": true
+  },  
+  "globs": [
+    "docs/**/*.md"
+  ],
+  "ignores": [
+    "site/**",
+    "node_modules/**",
+    ".pnpm-store/**"
+  ]
+}
