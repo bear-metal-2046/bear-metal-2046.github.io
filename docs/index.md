@@ -33,7 +33,7 @@ description: Bear Metal Knowledge Base
 
     ---
 
-    Manufacturing fundametals, tools, and shop practices
+    Manufacturing fundamentals, tools, and shop practices
 
 -   <p style="text-align: center;">[:octicons-zap-16: Hardware](/hardware){.md-button}</p>
 
