@@ -1,11 +1,12 @@
 ---
 description: Bear Metal Knowledge Base
 ---
-# Home
 
-## Welcome to Bear Metal Docs!
-
-Here you can find a lot of great information from different subteams.
+<div class="hero" markdown>
+<img src="img/homepage-hero.png" alt="Bear Metal Logo" class="hero-logo" width="250">
+<h1>Bear Metal Docs</h1>
+<p>2046 knowledge base</p>
+</div>
 
 ---
 
@@ -46,15 +47,6 @@ Here you can find a lot of great information from different subteams.
 
     Robot code, command-based architecture, and control theory
 
-</div>
-
-
-
-Here you can find a lot of great information from different subgroups.
-
----
-
-<div class="grid cards" markdown>
 -    <p style="text-align: center;">[:octicons-circle-16: Drive Team](/drive-team){.md-button}</p>
 
     ---
