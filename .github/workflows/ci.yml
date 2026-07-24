@@ -1,0 +1,48 @@
+name: CI Quality Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "mkdocs-material[imaging]" ffc-mkdocs-video
+
+      - name: Build Documentation
+        run: mkdocs build --strict
+
+      - name: Run Tests
+        run: pnpm test
+
+      - name: Check External Links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "docs/**/*.md"
+          fail: true
