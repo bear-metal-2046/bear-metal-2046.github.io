@@ -21,15 +21,11 @@ The PDH distributes power from the battery throughout the robot's electrical sys
 
 The PDP serves the same purpose as the PDH. We don't typically use the PDP on competition robots due to the fact that it lacks features available on the PDH.
 
-<img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/188/586/PDP__05475.1641569906.jpg?c=1" alt="PDP" width="400"/>
-
 ---
 
 ## VRM
 
 The VRM is used to regulate voltage, specifically to components that require less power and use smaller gauge wire.
-
-<img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/178/587/VRM__22344.1641570374.jpg?c=1" alt="VRM" width="400"/>
 
 ---
 
@@ -59,7 +55,7 @@ The RPM is used to easily splice power into an ethernet cable, which will be use
 
 CANCoders are used to find how much rotating mechanisms have rotated and relay that data through the CAN system. The CANCoder itself is a small PCB, but is placed in close proximity to a cylindrical magnet that rotates with the rotating mechanism (for example, in an axle) whilst the CANCoder remains static. The CANCoder uses the magnet to find rotational data.
 
-<img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/153/445/ccd1__25134.1674524028.jpg?c=1" alt="CANCoder" width="400"/>
+<img src="https://store.ctr-electronics.com/cdn/shop/files/CANCoder-wired-rotary-magnetic-encoder-robotics-automation-product.png?v=1756386105" alt="CANCoder" width="400"/>
 
 ---
 
@@ -67,7 +63,7 @@ CANCoders are used to find how much rotating mechanisms have rotated and relay t
 
 The Main Breaker interrupts the positive wire from the battery before it goes to the PDH or PDP. The large red button will disconnect power, and pushing the lever back in will restore power. When connecting the main breaker, make sure the "aux" terminal is connected to the PDP or PDH.
 
-<img src="https://cdn.andymark.com/product_images/120-amp-breaker/am_0282/5bd3e2f661a10d27d2433225/detail.jpg?c=1540612854" alt="Main Breaker" width="400"/>
+<img src="https://andymark.com/cdn/shop/files/am-0282_ea012fb9-3473-412a-82cf-465ea70f1274_1200x1200.jpg?v=1772145981" alt="Main Breaker" width="400"/>
 
 ---
 
@@ -75,7 +71,7 @@ The Main Breaker interrupts the positive wire from the battery before it goes to
 
 The RoboRIO is the code that runs robot code. It is an extremely important part of the robot (and expensive), so please try not to break it.
 
-<img src="https://th.bing.com/th/id/R.c8438c31a8e62e36edff0c85f10b40b6?rik=Givp77hTFUhDzA&riu=http%3a%2f%2fforums.ni.com%2flegacyfs%2fonline%2f174340_roboRIO+anaotated.png" alt="RoboRIO" width="400"/>
+<img src="https://raw.githubusercontent.com/wpilibsuite/frc-docs/stable/source/docs/controls-overviews/images/control-system-hardware/roborio.png" alt="RoboRIO" width="400"/>
 
 ---
 
@@ -83,7 +79,7 @@ The RoboRIO is the code that runs robot code. It is an extremely important part 
 
 The Pigeon 2.0 IMU is a gyroscope that assists the robot in knowing where it is on the field. Typically this component will be placed somewhere near the center of the robot.
 
-<img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/210/613/Pigeon2__35998.1641996756.1280.1280__82782.1643919663.png?c=1" alt="Pigeon 2.0" width="400"/>
+<img src="https://store.ctr-electronics.com/cdn/shop/files/Pigeon-2.0-9-Degrees-of-Freedom-IMU_robotics_FRC_orientation_data.png?v=1756397345" alt="Pigeon 2.0" width="400"/>
 
 ---
 
@@ -99,4 +95,4 @@ The RSL is a large orange light that displays the status of the robot. Solid mea
 
 The CANivore is a CAN-to-USB adapter that allows us to create an entirely new CAN network. This allows us to split all CAN connected components in our robot into different groups. For example, in the 2024 season we had all of our mechanisms daisy chained to the RoboRIO's CAN port, and we had our swerve motors and CANCoders daisy chained to a CANivore. One of the downsides to CANivores is that we need to manually add terminating resistors to the end of daisy chained systems that use a CANivore.
 
-<img src="https://cdn11.bigcommerce.com/s-7cuph2j78p/images/stencil/1280x1280/products/211/616/canivore_main__07095.1638900553.1280.1280__43296.1643920037.png?c=1" alt="CANivore" width="400"/>
+<img src="https://store.ctr-electronics.com/cdn/shop/files/CANivore__USB_to_CAN_FD_adapter.png?v=1762451912" alt="CANivore" width="400"/>

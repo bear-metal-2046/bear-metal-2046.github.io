@@ -6,7 +6,7 @@ There are many resources available to further and aid your design skills, here a
 
 Generates STEP for any gear you can think of. Very useful for getting a machinable gear profile.
 
-[FRC Design Guide :octicons-link-external-16:](https://www.frcdesign.org/design-guide/){ .md-button .md-button--primary }
+[FRC Design Guide :octicons-link-external-16:](https://frcdesign.org/design-handbook/){ .md-button .md-button--primary }
 
 Created by members from David's Design Server, this is an excellent resource for learning and improving your design skills.
 
