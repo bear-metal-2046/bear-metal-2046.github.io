@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "mkdocs serve",
+    "build": "mkdocs build",
     "lint": "markdownlint-cli2 docs/**/*.md --fix",
     "check-typos": "cspell \"docs/**/*.md\"",
     "test": "pnpm lint && pnpm check-typos"
