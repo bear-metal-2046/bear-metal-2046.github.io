@@ -40,11 +40,22 @@ nav:
     - 'Electrical Components': 'hardware/electrical-components.md'
     - 'Pneumatic Components': 'hardware/pneumatic-components.md'
     - 'Concepts': 'hardware/concepts.md'
+  - 'Programming':
+    - 'Programming Home': 'programming/index.md'
+    - 'Java Fundamentals': 'programming/java-fundamentals.md'
+    - 'Robot Libraries': 'programming/robot-libraries.md'
+    - 'Command-Based Architecture': 'programming/command-based.md'
+    - 'Control Theory': 'programming/control-theory.md'
+    - 'Simulation & Testing': 'programming/simulation.md'
+    - 'Sustainability': 'programming/sustainability.md'
+    - 'External Resources': 'programming/external-resources.md'
 plugins:
     - ffc-mkdocs-video
     - search
-    - social
-    # figure out how to use xolonium at some point instead of default font.
+    - social:
+      # figure out how to use xolonium at some point instead of default font.
+        cards_layout_options:
+          font_family: Roboto
 extra_css:
   - stylesheets/extra.css
 extra:
