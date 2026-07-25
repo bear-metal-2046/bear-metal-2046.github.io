@@ -1,0 +1,28 @@
+{
+  "version": "10.0.1",
+  "language": "en",
+  "words": [
+    "brushless",
+    "CANivore",
+    "CANivores",
+    "Corbin",
+    "fontawesome",
+    "JOSHI",
+    "kitbot",
+    "Matthaeusssss",
+    "outrunner",
+    "pra1ries",
+    "RENIE",
+    "subteam",
+    "subteams"
+  ],
+  "ignorePaths": [
+    "docs/design/test1.md",
+    "site/**",
+    "node_modules/**",
+    ".pnpm-store/**",
+    "package.json",
+    "pnpm-lock.yaml",
+    ".git/**"
+  ]
+}

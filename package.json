@@ -1,0 +1,28 @@
+{
+  "name": "bear-metal-2046.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mkdocs serve",
+    "build": "mkdocs build",
+    "lint": "markdownlint-cli2 docs/**/*.md --fix",
+    "check-typos": "cspell \"docs/**/*.md\"",
+    "test": "pnpm lint && pnpm check-typos"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.13.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "cspell": "^10.0.1",
+    "markdownlint-cli2": "^0.23.1"
+  }
+}

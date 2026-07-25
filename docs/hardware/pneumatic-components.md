@@ -61,7 +61,7 @@ Pneumatic solenoids allow us to control the actuation of our pneumatics remotely
 
 The pressure relief valve is a mechanical version of the pressure switch. The pressure relief valve is calibrated to 125 PSI (which is the maximum rated pressure of the accumulators). When the pressure exceeds that, the pressure relief valve pops open briefly to release pressure. From first-hand experience, this is VERY loud. Do not intentionally activate the pressure relief valve when you are near it.
 
-<img src="https://cdn.andymark.com/product_images/pressure-gauge-1-5-face-back-mount-1-8-npt-0-160-psi/615757f943821401280e9db2/detail.jpg?c=1633114105" alt="Pressure Relief Valve" width="400"/>
+<img src="https://andymark.com/cdn/shop/files/am-3147_1200x1200.jpg?v=1749948512" alt="Pressure Relief Valve" width="400"/>
 
 ---
 
@@ -69,7 +69,7 @@ The pressure relief valve is a mechanical version of the pressure switch. The pr
 
 The pressure switch is a digital version of the relief valve that functions slightly differently. Instead of releasing pressure, it stops the compressor when it reaches a certain pressure (the ones we use do this at 115 PSI).
 
-<img src="https://cdn.andymark.com/product_images/nason-pressure-switch/am_2006/5bd4979261a10d27d243335e/detail.jpg?c=1540659090" alt="Pressure Switch" width="400"/>
+<img src="https://andymark.com/cdn/shop/files/am-2006_1200x1200.jpg?v=1749948437" alt="Pressure Switch" width="400"/>
 
 ---
 
@@ -77,9 +77,9 @@ The pressure switch is a digital version of the relief valve that functions slig
 
 Pneumatic Cylinders use pneumatic pressure in order to actuate in a linear motion.
 
-<img src="https://cdn.andymark.com/product_images/double-acting-3-4-in-bore-air-cylinders-different-lengths/6286a275959bab01295ec1ef/detail.jpg?c=1652990581" alt="Cylinders" width="400"/>
+<img src="https://andymark.com/cdn/shop/files/am-smc-3-4-bore_1_c4b54307-aaa8-45e4-b150-7267696250e7_1200x1200.jpg?v=1772133238" alt="Cylinders" width="400"/>
 
-<img src="https://cdn.andymark.com/product_images/12-mm-bore-10-mm-stroke-air-cylinder/5fc68ed15ac4470e38250b63/detail.jpg?c=1606848209" alt="Waffle Cylinder" width="400"/>
+<img src="https://andymark.com/cdn/shop/files/am-4388_1_1200x1200.jpg?v=1749949033" alt="Waffle Cylinder" width="400"/>
 
 ---
 

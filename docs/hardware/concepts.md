@@ -19,7 +19,6 @@ In order to understand Ohm's Law, you need to understand what voltage, amperage,
 
 Voltage is the measure of potential difference in the charge of the positive and negative terminals of a system. This is measured in Volts (V).
 
-
 ### Amperage
 
 Amperage is the magnitude of the charge being transferred. This is measured in Amps or Amperes (A).
@@ -40,7 +39,7 @@ If you have two batteries wired into a circuit in parallel, the total amperage o
 
 In this theoretical parallel circuit, the positive terminals of both batteries will be connected to the same wire, this wire will serve as the positive wire for the circuit. The same goes for the negative wire, it will be connected to the negative terminal of both batteries.
 
-<img src="/img/parallel.svg" alt="Parallel Circuit" width="400"/>
+<img src="../img/parallel.svg" alt="Parallel Circuit" width="400"/>
 
 ### Series Circuits
 
@@ -48,4 +47,4 @@ If you have two batteries wired into a circuit in series, the total voltage of t
 
 In this theoretical circuit, the negative terminal of battery 1 serves as the negative terminal for the whole circuit. The positive terminal of battery 1 is connected to the negative terminal of battery 2. The positive terminal of battery 2 serves as the positive terminal for the whole circuit.
 
-<img src="/img/series.svg" alt="Series Circuit" width="400"/>
+<img src="../img/series.svg" alt="Series Circuit" width="400"/>

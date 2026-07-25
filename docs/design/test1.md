@@ -32,7 +32,6 @@
 - ^^This was inserted (underline)^^
 - ~~This was deleted (strikethrough)~~
 
-
 <div class="grid" markdown>
 
 === "New-Member Challenge"
@@ -56,4 +55,3 @@
     -   dong
 
     </div>
-
