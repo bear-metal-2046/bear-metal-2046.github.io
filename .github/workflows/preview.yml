@@ -39,7 +39,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: site
-          branch: gh-pages
+          branch: gh-page
           target-folder: previews/pr-${{ github.event.pull_request.number }}
 
       - name: Comment PR with preview URL
