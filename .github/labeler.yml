@@ -1,0 +1,23 @@
+apps:
+  - '(apps|scouting app|dart|flutter)'
+
+business:
+  - '(business|fundraise|sponsor|budget|marketing)'
+
+design:
+  - '(design|cad|inventor|perforce)'
+
+fabrication:
+  - '(fabrication|fabricate|cnc|lathe|mill)'
+
+hardware:
+  - '(hardware|electrical|assembly|wiring|sensor|actuator|schematics)'
+
+programming:
+  - '(programming|java|code|robot code|wpilib|control theory|simulation)'
+
+documentation:
+  - '(documentation|document|write.?up)'
+
+bug:
+  - '(bug|error|fix|broken|crash|issue|problem|fail|not work|doesn.t work)'
