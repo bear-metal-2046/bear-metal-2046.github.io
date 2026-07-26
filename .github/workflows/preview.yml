@@ -48,7 +48,7 @@ jobs:
         with:
           script: |
             const prNumber = ${{ github.event.pull_request.number }};
-            const previewUrl = `https://bearmetalweb.github.io/previews/pr-${prNumber}/`;
+            const previewUrl = `https://bear-metal-2046.github.io/previews/pr-${prNumber}/`;
             const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
