@@ -20,4 +20,4 @@ documentation:
   - '(documentation|document|write.?up)'
 
 bug:
-  - '(bug|error|fix|broken|crash|issue|problem|fail|not work|doesn.t work)'
+  - '(bug|error|fix|broken|crash|problem|fail|not work|doesn.t work)'
