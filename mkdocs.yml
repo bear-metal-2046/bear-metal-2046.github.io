@@ -23,6 +23,7 @@ theme:
 nav: 
   - Home: 'index.md'
   - 'Business':
+    - 'Business HOME': 'business/index.md'
     - 'Sustainability': 'business/sustainability.md'
   - 'Design':
     - 'Design HOME': 'design/index.md'
