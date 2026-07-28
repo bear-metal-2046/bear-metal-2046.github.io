@@ -22,6 +22,8 @@ theme:
     - content.code.copy
 nav: 
   - Home: 'index.md'
+  - 'Business':
+    - 'Sustainability': 'business/sustainability.md'
   - 'Design':
     - 'Design HOME': 'design/index.md'
     - 'COTS Library': 'design/cots-library.md'
