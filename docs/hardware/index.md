@@ -13,25 +13,25 @@ description: Homepage for Electronics.
 > ~ Corbin
 
 <div class="grid cards" markdown>
--    <p style="text-align: center;">[:material-engine-outline: Motors](/electronics/motors){.md-button}</p>
+-    <p style="text-align: center;">[:material-engine-outline: Motors](motors/){.md-button}</p>
 
     ---
 
     Here you can find information about motors and motor related hardware. </p>
 
-- <p style="text-align: center;">[:octicons-zap-16: Electrical Components](/electronics/electrical-components){.md-button}</p>
+- <p style="text-align: center;">[:octicons-zap-16: Electrical Components](electrical-components/){.md-button}</p>
 
     ---
 
     Here you can find information about different electrical components. </p>
 
-- <p style="text-align: center;">[:material-weather-windy: Pneumatic Components](/electronics/pneumatic-components){.md-button}</p>
+- <p style="text-align: center;">[:material-weather-windy: Pneumatic Components](pneumatic-components/){.md-button}</p>
 
     ---
 
     Here you can find information about pneumatic components. </p>
 
-- <p style="text-align: center;">[:material-thought-bubble-outline: Concepts](/electronics/concepts){.md-button}</p>
+- <p style="text-align: center;">[:material-thought-bubble-outline: Concepts](concepts/){.md-button}</p>
 
     ---
 

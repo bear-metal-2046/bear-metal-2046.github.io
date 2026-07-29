@@ -1,7 +1,7 @@
 # Business Documentation
 
 <div class="grid cards" markdown>
-- <p style="text-align: center;">[Sustainability](/business/sustainability){.md-button}
+- <p style="text-align: center;">[Sustainability](sustainability/){.md-button}
 
     ---
 
