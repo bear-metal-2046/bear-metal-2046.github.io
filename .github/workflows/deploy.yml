@@ -25,6 +25,8 @@ jobs:
 
       - name: Build Documentation
         run: mkdocs build --strict
+        env:
+          SITE_URL: https://bear-metal-2046.github.io
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

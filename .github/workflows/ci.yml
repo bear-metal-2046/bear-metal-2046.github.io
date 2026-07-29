@@ -37,6 +37,8 @@ jobs:
 
       - name: Build Documentation
         run: mkdocs build --strict
+        env:
+          SITE_URL: https://bear-metal-2046.github.io
 
       - name: Run Tests
         run: pnpm test
