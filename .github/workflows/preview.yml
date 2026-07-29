@@ -33,7 +33,9 @@ jobs:
           pip install "mkdocs-material[imaging]" ffc-mkdocs-video
 
       - name: Build Documentation
-        run: mkdocs build
+        run: mkdocs build --strict
+        env:
+          SITE_URL: https://bear-metal-2046.github.io/previews/pr-${{ github.event.pull_request.number }}/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

@@ -1,5 +1,5 @@
 site_name: Bear Metal Docs
-site_url: https://bear-metal-2046.github.io
+site_url: !ENV SITE_URL
 theme:
   name: material
   locale: en
@@ -22,6 +22,9 @@ theme:
     - content.code.copy
 nav: 
   - Home: 'index.md'
+  - 'Business':
+    - 'Business HOME': 'business/index.md'
+    - 'Sustainability': 'business/sustainability.md'
   - 'Design':
     - 'Design HOME': 'design/index.md'
     - 'COTS Library': 'design/cots-library.md'
