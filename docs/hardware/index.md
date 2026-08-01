@@ -2,9 +2,9 @@
 hide:
   - toc
 
-description: Homepage for Electronics.
+description: Homepage for Hardware.
 ---
-# Electronics Documentation
+# Hardware Documentation
 
 ---
 > This site is a knowledge base for the electrical components and practices we use on the electrical subteam. Expect missing information as I am actively working on compiling information.
@@ -35,6 +35,6 @@ description: Homepage for Electronics.
 
     ---
 
-    Here you can find information about concepts we use in electronics. </p>
+    Here you can find information about concepts we use in hardware. </p>
 
 </div>
