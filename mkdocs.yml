@@ -53,6 +53,9 @@ nav:
     - 'Simulation & Testing': 'programming/simulation.md'
     - 'Sustainability': 'programming/sustainability.md'
     - 'External Resources': 'programming/external-resources.md'
+  - 'Pits':
+    - 'Pits Home': 'pits/index.md'
+    - 'Pits Test Study Guide': 'pits/pits-test-study-guide.md'
 plugins:
     - ffc-mkdocs-video
     - search
