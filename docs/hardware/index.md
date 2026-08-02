@@ -37,7 +37,7 @@ description: Homepage for Hardware.
 
     Here you can find information about concepts we use in hardware. </p>
 
-- <p style="text-align: center;">[:material-engine-outline: Shop Parts & Tool Organization](shop-parts-and-tool-organization/){.md-button}</p>
+- <p style="text-align: center;">[:material-engine-outline: Shop Parts & Tool Organization](shop-parts-and-tool-organization.md){.md-button}</p>
 
     ---
 
