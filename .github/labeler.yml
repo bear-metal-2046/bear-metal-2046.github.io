@@ -1,23 +1,23 @@
 apps:
-  - '(apps|scouting app|dart|flutter)'
+  - '(?i)(apps|scouting app|dart|flutter)'
 
 business:
-  - '(business|fundraise|sponsor|budget|marketing)'
+  - '(?i)(business|fundraise|sponsor|budget|marketing)'
 
 design:
-  - '(design|cad|inventor|perforce)'
+  - '(?i)(design|cad|inventor|perforce|laser|3d print|3DP|pdr|cdr)'
 
 fabrication:
-  - '(fabrication|fabricate|cnc|lathe|mill)'
+  - '(?i)(fabrication|fabricate|cnc|lathe|mill)'
 
 hardware:
-  - '(hardware|electrical|assembly|wiring|sensor|actuator|schematics)'
+  - '(?i)(hardware|electrical|assembly|wiring|sensor|actuator|schematics)'
 
 programming:
-  - '(programming|java|code|robot code|wpilib|control theory|simulation)'
+  - '(?i)(programming|java|code|robot code|wpilib|control theory|simulation)'
 
 documentation:
-  - '(documentation|document|write.?up)'
+  - '(?i)(documentation|document|write.?up)'
 
 bug:
-  - '(bug|error|fix|broken|crash|problem|fail|not work|doesn.t work)'
+  - '(?i)(bug|error|fix|broken|crash|problem|fail|not work|doesn.t work)'
