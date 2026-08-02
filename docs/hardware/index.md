@@ -13,7 +13,7 @@ description: Homepage for Hardware.
 > ~ Corbin
 
 <div class="grid cards" markdown>
--    <p style="text-align: center;">[:material-engine-outline: Motors](motors/){.md-button}</p>
+- <p style="text-align: center;">[:material-engine-outline: Motors](motors/){.md-button}</p>
 
     ---
 
@@ -36,5 +36,11 @@ description: Homepage for Hardware.
     ---
 
     Here you can find information about concepts we use in hardware. </p>
+
+- <p style="text-align: center;">[:material-engine-outline: Shop Parts & Tool Organization](shop-parts-and-tool-organization/){.md-button}</p>
+
+    ---
+
+    Here you can find information about shop parts and tool organization. </p>
 
 </div>
