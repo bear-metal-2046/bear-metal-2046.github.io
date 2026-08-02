@@ -43,6 +43,7 @@ nav:
     - 'Electrical Components': 'hardware/electrical-components.md'
     - 'Pneumatic Components': 'hardware/pneumatic-components.md'
     - 'Concepts': 'hardware/concepts.md'
+    - 'Shop Parts & Tool Organization': 'hardware/shop-parts-tool-organization.md'
   - 'Programming':
     - 'Programming Home': 'programming/index.md'
     - 'Java Fundamentals': 'programming/java-fundamentals.md'
