@@ -29,6 +29,12 @@ For any suggestions/feedback, feel free to DM @Matthaeusssss via Discord 🤓
 
     Continuing to iterate through the season is our key to success... here's how we do it effectively ^ </p>
 
+- <p style="text-align: center;">[Laser Cutting Guide](laser-cutting-guide/){.md-button}
+
+    ---
+
+    How to laser cut like a pro </p>
+
 - <p style="text-align: center;">[Inter-Subteam Knowledge](inter-sub-knowledge/){.md-button}</p>
 
     ---
