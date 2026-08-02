@@ -3,8 +3,6 @@ title: Shop Parts & Tool Organization
 description: Reference sheet for shop parts and tool organization
 ---
 
-# Shop Parts & Tool Organization
-
 ## Toolbox - Rolling Cart
 
 | #     | A                                 | B                                  | C                                   |
@@ -57,7 +55,7 @@ description: Reference sheet for shop parts and tool organization
 | 3     | Welding Supplies             | Welding Supplies              |                            | Welding Supplies                | Welding Supplies                                |                                     | Welding Supplies                                            |                                      | Welding Supplies                         |                                            |
 | 4     | Discontinued FRC Parts       | Velcro                        |                            | Urethane Belting - Flat & Round | Rubber Tubing & Foam Sheets                     |                                     | VEX Pro Gussets & Prototyping Supplies                      |                                      | 775 & Bag Motors                         | VEX VersaPlanetary Gearboxes               |
 | 5     | Belts HTD 5mm Pitch 15 Width | 3D Prints (Various)           |                            | Energy Chain & IGUS Supplies    | Outreach #1 of 6  - VEX Controllers & Batteries | Outreach #4 of 6 - Round Down Goals | Outreach Tote #2 of 6 - Front: Binders, Flyers, Decorations | Outreach #5 of 6 - Trophies & Awards | Outreach #3 of 6 - Front: FRC Mechanisms | Outreach #6 of 6 - FRC Batteries & Charger |
-| 6     | Heat Shrink                  | Rubber Wheels - Non Compliant |                            | Colson Wheels                   | Compliant Wheels Small                          |                                     | Complian Wheels Large > 3"                                  |                                      | Pneumatics                               |                                            |
+| 6     | Heat Shrink                  | Rubber Wheels - Non Compliant |                            | Colson Wheels                   | Compliant Wheels Small                          |                                     | Compliant Wheels Large > 3"                                 |                                      | Pneumatics                               |                                            |
 | 7     | Electrical Wire              | MK4i & MK4n Swerve #1 of 2    | MK4i & MK4n Swerve #2 of 2 | Mk5n Swerve                     | Mecanum & Omni Wheels                           |                                     | VEX Structure                                               |                                      | Pneumatic Cylinders                      | Practice Field Fasteners                   |
 
 ## Locker C101
@@ -92,7 +90,7 @@ description: Reference sheet for shop parts and tool organization
 | 26    |                            |
 | 27    |                            |
 | 28    |                            |
-| 29    | Projects: Electrcial       |
+| 29    | Projects: Electrical       |
 | 30    | New in Box Electrical      |
 | 31    |                            |
 | 32    |                            |
