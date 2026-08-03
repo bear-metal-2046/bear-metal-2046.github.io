@@ -30,6 +30,7 @@ nav:
     - 'COTS Library': 'design/cots-library.md'
     - 'CAD Fundamentals': 'design/cad-fundamentals.md'
     - 'Iteration Process': 'design/iteration-process.md'
+    - 'Laser Cutting Guide': 'design/laser-cutting-guide.md'
     - 'Int. Subteam Knowledge': 'design/inter-sub-knowledge.md'
     - 'Mech. Challenges': 'design/mech-challenges.md'
     - 'Org./Doc.': 'design/org-documentation.md'
