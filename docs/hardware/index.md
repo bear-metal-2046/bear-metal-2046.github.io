@@ -43,4 +43,10 @@ description: Homepage for Hardware.
 
     Here you can find information about shop parts and tool organization. </p>
 
+- <p style="text-align: center;">[:material-connection: Schematics](schematics.md){.md-button}</p>
+
+    ---
+
+    Here you can find information about schematics from past seasons. </p>
+
 </div>

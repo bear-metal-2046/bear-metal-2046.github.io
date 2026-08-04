@@ -45,6 +45,7 @@ nav:
     - 'Pneumatic Components': 'hardware/pneumatic-components.md'
     - 'Concepts': 'hardware/concepts.md'
     - 'Shop Parts & Tool Organization': 'hardware/shop-parts-and-tool-organization.md'
+    - 'Schematics': 'hardware/schematics.md'
   - 'Programming':
     - 'Programming Home': 'programming/index.md'
     - 'Java Fundamentals': 'programming/java-fundamentals.md'
