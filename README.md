@@ -10,6 +10,12 @@ The knowledge base website for Bear Metal 2046, built with [MkDocs Material](htt
 
 ![website status](https://img.shields.io/website?url=https%3A%2F%2Fbear-metal-2046.github.io&style=for-the-badge)
 
+## Contributors
+
+<a href="https://github.com/bear-metal-2046/bear-metal-2046.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bear-metal-2046/bear-metal-2046.github.io" />
+</a>
+
 ## Getting Started
 
 ### Prerequisites
